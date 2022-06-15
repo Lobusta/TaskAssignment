@@ -1,0 +1,76 @@
+.container{ 
+    margin: 0.5rem;
+    background : url("bg-desktop-dark.jpg");
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.sub-container {
+    width: 30rem;    
+}
+
+.title-bar-container{
+    display: flex;
+    justify-content: space-between;    
+
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.mode-btn{
+    width: 3rem;
+    height:3rem;
+    padding: 1.25rem 1.25rem ;
+    cursor: pointer;
+    margin-top: 0.6rem;
+}
+
+
+.task-create-container {
+    display: flex;
+    justify-content: center;
+}
+
+.task-create {
+    width: 30rem;
+    height: 3rem;
+    text-align: center;
+}
+
+
+.task-list {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.task-foot-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.task-footer{
+    width: 30rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-sorters{
+    display: flex;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.task-sorters span{
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
