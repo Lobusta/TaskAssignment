@@ -35,35 +35,19 @@
 
 
           <div class="task-list-container" id="task-list-container">
+            
             <div class="task-list-element">
-                <div class="check-mark-container">
-                     <img class="check-mark" src="icon-check.svg"/>
-                </div>
-                <div class="task-list-element-inside">
-                    <p>Task Description</p>
-                    <img class="cross" src="icon-cross.svg"/>
-                </div>
-            </div>
-
-            <div class="task-list-element">
-              <div class="check-mark-container">
-                   <img class="check-mark" src="icon-check.svg"/>
-              </div>
+              <div onclick="this.classList.toggle('check-mark-container-active')" class="check-mark-container">
+                    <img class="check-mark" src="icon-check.svg"/>
+               </div>
               <div class="task-list-element-inside">
-                  <p>Task Description</p>
-                  <img class="cross" src="icon-cross.svg"/>
-              </div>
-            </div>
+                    <p>Task description</p>
+                    <img onclick="delete_row(this)" class="cross" src="icon-cross.svg"/>
+             </div>
+             </div>
 
-          <div class="task-list-element">
-            <div class="check-mark-container">
-                 <img class="check-mark" src="icon-check.svg"/>
-            </div>
-            <div class="task-list-element-inside">
-                <p>Task Description</p>
-                <img class="cross" src="icon-cross.svg"/>
-            </div>
-        </div>
+         
+
               
           </div>
 
