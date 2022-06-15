@@ -20,7 +20,10 @@
      
       <div class="task-create-container">
         <img src="icon-check.svg"/>
-        <input class="task-create" type="text" placeholder="Create a new Todo..." >
+        <form method="post">
+        <input id="create-task" class="task-create" type="text" placeholder="Create a new Todo..." />
+        <input id="submitbutton" type="submit" onclick="AddTask()" hidden />
+        </form>
     </div>
      
      
@@ -31,7 +34,7 @@
 
 
 
-          <div class="task-list-container">
+          <div class="task-list-container" id="task-list-container">
             <div class="task-list-element">
                 <div class="check-mark-container">
                      <img class="check-mark" src="icon-check.svg"/>
@@ -50,7 +53,7 @@
                   <p>Task Description</p>
                   <img class="cross" src="icon-cross.svg"/>
               </div>
-          </div>
+            </div>
 
           <div class="task-list-element">
             <div class="check-mark-container">
@@ -85,8 +88,8 @@
     </div>
    
 
-</div>
+    </div>
 
-
+<script src="TaskList.js"></script>
 </body>
 </html>

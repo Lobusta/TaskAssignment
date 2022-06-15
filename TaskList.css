@@ -1,7 +1,7 @@
 .container{ 
     margin: 0.5rem;
-    background : url("bg-desktop-dark.jpg");
-    background-size: 100% auto;
+    background : url("bg-desktop-light.jpg");
+    background-size: 100% ;
     display: flex;
     justify-content: center;
 
@@ -15,7 +15,8 @@
 
 .title-bar-container{
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    margin-top: 2rem; 
 
 }
 
