@@ -2,6 +2,9 @@
 <html>
 <head>
   <link rel="stylesheet" href="TaskList.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400" rel="stylesheet">
 </head>
 <body>
 
@@ -15,41 +18,72 @@
 
 
      
-     
+      <div class="task-create-container">
+        <img src="icon-check.svg"/>
+        <input class="task-create" type="text" placeholder="Create a new Todo..." >
+    </div>
      
      
      
       <div class="task-parent-container">
 
-          <div class="task-create-container">
-              <img src="icon-check.svg"/>
-              <input class="task-create" type="text" placeholder="Create a new Todo..." >
-          </div>
+       
 
 
 
           <div class="task-list-container">
             <div class="task-list-element">
-              <img src="icon-check.svg"/>
-              <p>Task Description</p>
-              <img src="icon-cross.svg"/>
+                <div class="check-mark-container">
+                     <img class="check-mark" src="icon-check.svg"/>
+                </div>
+                <div class="task-list-element-inside">
+                    <p>Task Description</p>
+                    <img class="cross" src="icon-cross.svg"/>
+                </div>
             </div>
+
+            <div class="task-list-element">
+              <div class="check-mark-container">
+                   <img class="check-mark" src="icon-check.svg"/>
+              </div>
+              <div class="task-list-element-inside">
+                  <p>Task Description</p>
+                  <img class="cross" src="icon-cross.svg"/>
+              </div>
+          </div>
+
+          <div class="task-list-element">
+            <div class="check-mark-container">
+                 <img class="check-mark" src="icon-check.svg"/>
+            </div>
+            <div class="task-list-element-inside">
+                <p>Task Description</p>
+                <img class="cross" src="icon-cross.svg"/>
+            </div>
+        </div>
               
           </div>
 
           <div class="task-foot-container">
               <div class="task-footer">
-                 <span>X items Left</span>
+                 <span class="side-buttons">x items left</span>
                  <div class="task-sorters">
                     <span>All</span>
                     <span>Active</span>
                     <span>Complete</span>
                  </div>
-                 <span>Clear Completed</span>
+                 <span class="side-buttons">Clear Completed</span>
               </div>
            </div>
+
+           
+           
        </div>
+       <div class="bottom-footer">
+        <p class="bottom-footer-text">Drag and Drop to reorder list</p>
+      </div>
     </div>
+   
 
 </div>
 

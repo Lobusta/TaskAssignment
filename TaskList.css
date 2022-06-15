@@ -4,6 +4,7 @@
     background-size: 100% auto;
     display: flex;
     justify-content: center;
+
   
 }
 
@@ -39,6 +40,20 @@
      position: relative;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .task-create-container img {
     position: absolute;
     height: 1.5rem;
@@ -51,6 +66,7 @@
 
 }
 
+
 .task-create {
    
     width: 30rem;
@@ -61,22 +77,74 @@
 }
 
 
+
+
+
+
+
+.task-parent-container{
+    position: relative;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
 .task-list-container {
     margin-top: 1.5rem;
     text-align: center;
 }
 
-
-
-
-
 .task-list-element {
     display: flex;
-    justify-content: space-around;
+    position: relative;
     background-color: white;
+    border-radius: 1rem;
 }
 
+.check-mark-container{
+    position: absolute;
+    height: 1.2rem;
+    width: 1.2rem;
+    padding: 0.4rem;
+    border-radius: 1.4rem;
+    margin: 0.5rem;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 
+    
+}
+
+.check-mark {
+   height: 1rem;
+   width: 1rem;
+   margin: 0.12rem;
+}
+
+.task-list-element-inside{
+    margin-left: 4rem;
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list-element-inside p{
+    font-family: 'Josefin Sans';
+}
+
+.cross{
+    height: 1rem;
+    width: 1rem;
+    margin-top: 1rem;
+
+}
 
 
 
@@ -107,27 +175,59 @@
 
 
 .task-foot-container{
-    color: white;
+    color: gray;
     display: flex;
     justify-content: center;
+    font-family: 'Josefin Sans';
+    margin-top: 0.6rem;
     
 }
 
 .task-footer{
+    padding: 0.5rem;
     width: 30rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
 }
 
+.side-buttons{
+    margin-top: 0.7rem;
+}
+
 .task-sorters{
+    font-family: 'Josefin Sans';
+    position: relative;
     display: flex;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 .task-sorters span{
     margin-left: 0.4rem;
     margin-right: 0.4rem;
+    padding: 0.5rem;
+    background: transparent;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-footer-text{
+    font-family: 'Josefin Sans';
+}
